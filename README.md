@@ -72,9 +72,11 @@ Kurulum;
 server.cfg veya script.cfg'ye dosyayı başlatlarını atayarak işlemin 1. adımını bitirmiş bulunmaktayız,
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* ensure sakasa-chicken
+* ensure sakasa-illegal
 * ensure qb-target
-* ensure-nh-keyboard
+* ensure nh-keyboard
+* ensure ik-joblimit
+* ensure cron
 
 
 2;
