@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Resource Preview] [https://youtube.com/watch?v=XtaP88IJwEg&t=2s](https://www.youtube.com/watch?v=7an_WcvthB0&t=9s)
+[Resource Preview] YAKINDA
 
 Gerekli Scriptler/Required Scripts
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,18 +22,31 @@ Setup;
 We have finished step 1 of the process by assigning the start file to server.cfg or script.cfg,
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* ensure sakasa-chicken
+* ensure sakasa-illegal
 * ensure qb-target
-* ensure-nh-keyboard
+* ensure nh-keyboard
+* ensure ik-joblimit
+* ensure cron
 
 
 2;
 Add the following to qb-core\shared\items.lua;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     --Chicken
-	['tavuk'] 			     = {['name'] = 'tavuk', 			  	        ['label'] = 'Live Chicken', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'tavuk.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'I need to cut this....'},
-	['kesilmistavuk'] 			     = {['name'] = 'kesilmistavuk', 			  	        ['label'] = 'Diced Chicken', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'kesilmistavuk.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'I need to wrap this up....'},
-	['paketlitavuk'] 			 = {['name'] = 'paketlitavuk', 			  	['label'] = 'Packaged Chicken', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlitavuk.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'I need to sell this....'},
+    --Esrar  
+    ['esrar'] 			             = {['name'] = 'esrar', 			  	        ['label'] = 'Esrar', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'esrar.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
+    ['islenmisesrar'] 			     = {['name'] = 'islenmisesrar', 			  	['label'] = 'İşlenmiş Esrar', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmisesrar.png', 	    
+      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+    ['paketlenmisesrar'] 			 = {['name'] = 'paketlenmisesrar', 			  	['label'] = 'Paketlenmiş Esrar', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmisesrar.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+
+     --kenevir  
+     ['kenevir'] 			         = {['name'] = 'kenevir', 			  	        ['label'] = 'Kenevir', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'kenevir.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
+     ['islenmiskenevir'] 			 = {['name'] = 'islenmiskenevir', 			  	['label'] = 'İşlenmiş Kenevir', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmiskenevir.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+     ['paketlenmiskenevir'] 			 = {['name'] = 'paketlenmiskenevir', 			['label'] = 'Paketlenmiş Kenevir', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmiskenevir.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+
+     --kokain 
+     ['kokain'] 			             = {['name'] = 'kokain', 			  	        ['label'] = 'Kokain', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'kokain.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
+     ['islenmiskokain'] 			     = {['name'] = 'islenmiskokain', 			  	['label'] = 'İşlenmiş Kokain', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmiskokain.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+    ['paketlenmiskokain'] 			 = {['name'] = 'paketlenmiskokain', 		    ['label'] = 'Paketlenmiş Kokain', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmiskokain.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
 
 
 3;
