@@ -49,7 +49,7 @@ Add the following to qb-core\shared\items.lua;
 
 
 3;
-Attach the photos we provide in the file sakasa-chicken\images.
+Attach the photos we provide in the file sakasa-illegal\images.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Add it to qb-inventory\html\images,
 
@@ -80,13 +80,24 @@ server.cfg veya script.cfg'ye dosyayı başlatlarını atayarak işlemin 1. adı
 2;
 qb-core\shared\items.lua'ya aşağıdakileri ekleyiniz;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    --Chicken
-	['tavuk'] 			     = {['name'] = 'tavuk', 			  	        ['label'] = 'Canlı Tavuk', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'tavuk.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu kesmem gerek....'},
-	['kesilmistavuk'] 			     = {['name'] = 'kesilmistavuk', 			  	        ['label'] = 'Doğranmış Tavuk', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'kesilmistavuk.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
-	['paketlitavuk'] 			 = {['name'] = 'paketlitavuk', 			  	['label'] = 'Paketlenmiş Tavuk', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlitavuk.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+    --Esrar  
+    ['esrar'] 			             = {['name'] = 'esrar', 			  	        ['label'] = 'Esrar', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'esrar.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
+    ['islenmisesrar'] 			     = {['name'] = 'islenmisesrar', 			  	['label'] = 'İşlenmiş Esrar', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmisesrar.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+    ['paketlenmisesrar'] 			 = {['name'] = 'paketlenmisesrar', 			  	['label'] = 'Paketlenmiş Esrar', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmisesrar.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+
+     --kenevir  
+    ['kenevir'] 			         = {['name'] = 'kenevir', 			  	        ['label'] = 'Kenevir', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'kenevir.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
+    ['islenmiskenevir'] 			 = {['name'] = 'islenmiskenevir', 			  	['label'] = 'İşlenmiş Kenevir', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmiskenevir.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+    ['paketlenmiskenevir'] 			 = {['name'] = 'paketlenmiskenevir', 			['label'] = 'Paketlenmiş Kenevir', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmiskenevir.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+
+     --kokain 
+    ['kokain'] 			             = {['name'] = 'kokain', 			  	        ['label'] = 'Kokain', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'kokain.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
+    ['islenmiskokain'] 			     = {['name'] = 'islenmiskokain', 			  	['label'] = 'İşlenmiş Kokain', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmiskokain.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+    ['paketlenmiskokain'] 			 = {['name'] = 'paketlenmiskokain', 		    ['label'] = 'Paketlenmiş Kokain', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmiskokain.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+
 
 3;
-sakasa-chicken\images dosyasında verdiğimiz fotoları ekleyiniz.
+sakasa-illegal\images dosyasında verdiğimiz fotoları ekleyiniz.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 qb-inventory\html\images adresine ekleyiniz,
  
