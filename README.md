@@ -35,7 +35,7 @@ Add the following to qb-core\shared\items.lua;
     --Esrar  
     ['esrar'] 			             = {['name'] = 'esrar', 			  	        ['label'] = 'Esrar', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'esrar.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
     ['islenmisesrar'] 			     = {['name'] = 'islenmisesrar', 			  	['label'] = 'İşlenmiş Esrar', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmisesrar.png', 	    
-      ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+         ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
     ['paketlenmisesrar'] 			 = {['name'] = 'paketlenmisesrar', 			  	['label'] = 'Paketlenmiş Esrar', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmisesrar.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
 
      --kenevir  
@@ -46,7 +46,7 @@ Add the following to qb-core\shared\items.lua;
      --kokain 
      ['kokain'] 			             = {['name'] = 'kokain', 			  	        ['label'] = 'Kokain', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'kokain.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
      ['islenmiskokain'] 			     = {['name'] = 'islenmiskokain', 			  	['label'] = 'İşlenmiş Kokain', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmiskokain.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
-    ['paketlenmiskokain'] 			 = {['name'] = 'paketlenmiskokain', 		    ['label'] = 'Paketlenmiş Kokain', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmiskokain.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
+     ['paketlenmiskokain'] 			 = {['name'] = 'paketlenmiskokain', 		    ['label'] = 'Paketlenmiş Kokain', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmiskokain.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
 
 
 3;
