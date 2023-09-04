@@ -35,7 +35,7 @@ Add the following to qb-core\shared\items.lua;
     --Esrar  
     ['esrar'] 			             = {['name'] = 'esrar', 			  	        ['label'] = 'Esrar', 			    ['weight'] = 2, 		['type'] = 'item', 		['image'] = 'esrar.png', 	    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu işlemem gerek....'},
     ['islenmisesrar'] 			     = {['name'] = 'islenmisesrar', 			  	['label'] = 'İşlenmiş Esrar', 			    ['weight'] = 3, 		['type'] = 'item', 		['image'] = 'islenmisesrar.png', 	    
-             ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
+                        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu paketlemem gerek....'},
     ['paketlenmisesrar'] 			 = {['name'] = 'paketlenmisesrar', 			  	['label'] = 'Paketlenmiş Esrar', 			['weight'] = 2, 		['type'] = 'item', 		['image'] = 'paketlenmisesrar.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'bunu satmam gerek....'},
 
      --kenevir  
