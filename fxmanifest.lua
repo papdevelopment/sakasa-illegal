@@ -4,7 +4,7 @@ fx_version 'cerulean'
 
 game 'gta5'
 
-
+description 'Creator By pirates'
 
 client_scripts {
     'client/esrar.lua',
